@@ -36,3 +36,123 @@ connection: close
 [2024-05-24 02:17:10,271: INFO: common: created directory at: artifacts]
 [2024-05-24 02:17:10,273: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-05-24 02:17:10,274: INFO: 12640755: File already exists of size:  ~ 145 KB]
+[2024-08-11 18:57:05,250: INFO: main: Welcome to our custom logging]
+[2024-08-17 18:56:11,051: INFO: main: >>>>>>>>>> stage Data Ingestion stage started <<<<<<<<<<]
+[2024-08-17 18:56:11,062: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 18:56:11,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 18:56:11,075: INFO: common: created directory at: artifacts]
+[2024-08-17 18:56:11,076: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-08-17 18:56:13,622: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Server: GitHub.com
+Date: Sat, 17 Aug 2024 11:24:53 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"f48733cd7475d4ab6ad7fe936b5a9b94"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/github-completion/completions proxy.enterprise.githubcopilot.com/v1/engines/github-completion/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ github.com/webpack/ github.com/assets/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=v960GSwEPAc0CVyZz%2Bok0oLrd60Z242CeDOVyFHaL5Ve14fg7vHWPLMK8mbHtpN6KVY9UL9%2Frz8VAkkltbymg%2B5WrG8px2JNeN2vkYJQyTy13umbbc38fpiCBS1EKeu80%2Fayr%2FAJEEAPnaxWfAU74lUpkXDmebGHlVRhhiIHH9DwdYKua8BH47%2Fw%2FQaC0stMeU11MdEQ84uX7366PW1YH4Nq%2Ft74hMUhwjlAZD5WhX9585InpTRJ4cFTYOSWLR3%2F8azeUotmbnCT6Yk8tovnBg%3D%3D--3dPEvwGsu37fH%2FFM--UqVYflH5jB5S78F5fHxtnA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.64826642.1723893893; Path=/; Domain=github.com; Expires=Sun, 17 Aug 2025 11:24:53 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Sun, 17 Aug 2025 11:24:53 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: EA3F:ADCB1:521AAD:6095BE:66C08885
+connection: close
+
+]
+[2024-08-17 18:56:13,741: ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 10, in <module>
+    data_inagestion.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\data_ingestion.py", line 38, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "D:\Anaconda\envs\textS\lib\zipfile.py", line 1268, in __init__
+    self._RealGetContents()
+  File "D:\Anaconda\envs\textS\lib\zipfile.py", line 1335, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-08-17 19:38:20,142: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-17 19:38:20,149: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-17 19:38:20,151: INFO: common: created directory at: artifacts]
+[2024-08-19 00:34:19,578: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 00:34:19,582: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 00:34:19,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 00:34:19,596: INFO: common: created directory at: artifacts]
+[2024-08-19 00:34:19,596: ERROR: main: 'NoneType' object has no attribute 'root_dir']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 24, in <module>
+    data_validation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+AttributeError: 'NoneType' object has no attribute 'root_dir'
+[2024-08-19 00:36:48,554: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 00:36:48,557: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 00:36:48,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 00:36:48,559: INFO: common: created directory at: artifacts]
+[2024-08-19 00:36:48,559: ERROR: main: 'NoneType' object has no attribute 'root_dir']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 24, in <module>
+    data_validation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+AttributeError: 'NoneType' object has no attribute 'root_dir'
+[2024-08-19 00:37:11,300: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 00:37:24,642: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 00:37:24,647: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 00:37:24,649: INFO: common: created directory at: artifacts]
+[2024-08-19 00:37:43,984: ERROR: main: 'NoneType' object has no attribute 'root_dir']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 24, in <module>
+    data_validation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+AttributeError: 'NoneType' object has no attribute 'root_dir'
+[2024-08-19 00:38:34,588: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 00:38:41,365: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 00:38:41,371: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 00:38:41,373: INFO: common: created directory at: artifacts]
+[2024-08-19 00:39:33,152: ERROR: main: 'NoneType' object has no attribute 'root_dir']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 24, in <module>
+    data_validation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 38, in get_data_validation_config
+    create_directories([config.root_dir])
+AttributeError: 'NoneType' object has no attribute 'root_dir'
+[2024-08-19 00:50:47,637: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 00:50:56,348: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 00:50:59,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 00:51:03,362: INFO: common: created directory at: artifacts]
+[2024-08-19 00:52:09,170: INFO: common: created directory at: artifacts/data_validation]
+[2024-08-19 00:53:56,245: ERROR: main: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\samsum_dataset']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 24, in <module>
+    data_validation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 16, in main
+    data_validation.validate_all_files_exist()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\data_validation.py", line 30, in validate_all_files_exist
+    raise e
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\data_validation.py", line 16, in validate_all_files_exist
+    all_files = os.listdir(os.path.join('artifacts', 'data_ingestion', 'samsum_dataset'))
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts\\data_ingestion\\samsum_dataset'
+[2024-08-19 01:07:55,594: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-19 01:07:55,597: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-19 01:07:55,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-19 01:07:55,599: INFO: common: created directory at: artifacts]
+[2024-08-19 01:07:55,599: INFO: common: created directory at: artifacts/data_validation]
+[2024-08-19 01:07:55,601: INFO: main: >>>>>>>>> Stage Data Validation stage completed <<<<<<<
+
+x============x]
