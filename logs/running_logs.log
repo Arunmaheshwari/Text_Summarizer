@@ -163,3 +163,31 @@ x============x]
 [2024-08-20 23:59:49,767: INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-08-20 23:59:49,769: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-08-20 23:59:49,771: INFO: common: created directory at: artifacts]
+[2024-08-21 00:06:59,531: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 00:07:00,684: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 00:07:00,699: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 00:07:00,701: INFO: common: created directory at: artifacts]
+[2024-08-21 00:50:42,223: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 00:50:43,206: INFO: main: >>>>>>>>>> stage Data Transformation stage started <<<<<<<<<<]
+[2024-08-21 00:50:43,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 00:50:43,221: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 00:50:43,224: INFO: common: created directory at: artifacts]
+[2024-08-21 00:50:43,224: INFO: common: created directory at: artifacts/data_transformation]
+[2024-08-21 00:50:43,225: ERROR: main: __init__() got an unexpected keyword argument 'data_path']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 38, in <module>
+    data_transformation.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation_config = config.get_data_transformation_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 57, in get_data_transformation_config
+    get_transformation_config = DataTransformationConfig(
+TypeError: __init__() got an unexpected keyword argument 'data_path'
+[2024-08-21 00:58:49,776: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 00:58:50,204: INFO: main: >>>>>>>>>> stage Data Transformation stage started <<<<<<<<<<]
+[2024-08-21 00:58:50,208: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 00:58:50,210: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 00:58:50,212: INFO: common: created directory at: artifacts]
+[2024-08-21 00:58:50,212: INFO: common: created directory at: artifacts/data_transformation]
+[2024-08-21 00:59:04,064: INFO: main: >>>>>>>>> Stage Data Transformation stage completed <<<<<<<
+
+x============x]
