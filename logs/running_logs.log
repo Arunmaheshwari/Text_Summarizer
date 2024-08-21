@@ -156,3 +156,10 @@ FileNotFoundError: [WinError 3] The system cannot find the path specified: 'arti
 [2024-08-19 01:07:55,601: INFO: main: >>>>>>>>> Stage Data Validation stage completed <<<<<<<
 
 x============x]
+[2024-08-20 23:43:43,710: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-20 23:54:11,467: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-20 23:54:11,482: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-20 23:54:11,484: INFO: common: created directory at: artifacts]
+[2024-08-20 23:59:49,767: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-20 23:59:49,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-20 23:59:49,771: INFO: common: created directory at: artifacts]
