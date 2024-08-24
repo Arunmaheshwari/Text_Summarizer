@@ -782,3 +782,15 @@ Traceback (most recent call last):
   File "D:\Anaconda\envs\textS\lib\site-packages\transformers\tokenization_utils_base.py", line 3479, in pad
     raise ValueError(
 ValueError: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']
+[2024-08-23 23:19:26,856: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-24 01:23:11,195: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-24 01:23:11,220: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-24 01:23:11,223: INFO: common: created directory at: artifacts]
+[2024-08-24 01:24:41,292: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-24 01:24:41,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-24 01:24:41,298: INFO: common: created directory at: artifacts]
+[2024-08-24 02:00:56,186: INFO: server: Started server process [103528]]
+[2024-08-24 02:00:56,188: INFO: on: Waiting for application startup.]
+[2024-08-24 02:00:56,189: INFO: on: Application startup complete.]
+[2024-08-24 02:00:56,190: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2024-08-24 02:04:00,784: INFO: config: PyTorch version 2.4.0 available.]
