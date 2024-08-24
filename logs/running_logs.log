@@ -191,3 +191,594 @@ TypeError: __init__() got an unexpected keyword argument 'data_path'
 [2024-08-21 00:59:04,064: INFO: main: >>>>>>>>> Stage Data Transformation stage completed <<<<<<<
 
 x============x]
+[2024-08-21 18:04:28,552: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:23:55,749: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:23:56,916: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 18:23:56,931: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 18:23:56,933: INFO: common: created directory at: artifacts]
+[2024-08-21 18:25:12,882: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 18:25:12,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 18:25:12,891: INFO: common: created directory at: artifacts]
+[2024-08-21 18:36:22,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 18:36:22,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 18:36:22,555: INFO: common: created directory at: artifacts]
+[2024-08-21 18:40:46,125: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:41:58,870: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:43:04,648: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:43:06,126: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 18:43:06,130: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 18:43:06,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 18:43:06,136: INFO: common: created directory at: artifacts]
+[2024-08-21 18:43:06,137: ERROR: main: "'ConfigBox' object has no attribute 'get_model_trainer_config'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 68, in get_model_trainer_config
+    config = self.config.get_model_trainer_config
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+[2024-08-21 18:44:58,119: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 18:44:59,394: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 18:44:59,398: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 18:44:59,402: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 18:44:59,404: INFO: common: created directory at: artifacts]
+[2024-08-21 18:44:59,405: ERROR: main: "'ConfigBox' object has no attribute 'get_model_trainer_config'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 68, in get_model_trainer_config
+    config = self.config.get_model_trainer_config
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+[2024-08-21 19:20:30,937: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:20:32,593: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:20:32,598: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:20:32,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:20:32,605: INFO: common: created directory at: artifacts]
+[2024-08-21 19:20:32,605: ERROR: main: "'ConfigBox' object has no attribute 'get_model_trainer_config'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'get_model_trainer_config'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'get_model_trainer_config'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 68, in get_model_trainer_config
+    config = self.config.get_model_trainer_config()
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'get_model_trainer_config'"
+[2024-08-21 19:24:23,751: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:24:25,683: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:24:25,689: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:24:25,692: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:24:25,695: INFO: common: created directory at: artifacts]
+[2024-08-21 19:24:25,695: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:24:25,696: ERROR: main: "'ConfigBox' object has no attribute 'root_dir'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_dir'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_dir'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config = config.get_model_trainer_config()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\config\configuration.py", line 74, in get_model_trainer_config
+    root_dir = params.root_dir,
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_dir'"
+[2024-08-21 19:26:18,052: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:26:19,357: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:26:19,361: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:26:19,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:26:19,366: INFO: common: created directory at: artifacts]
+[2024-08-21 19:26:19,366: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:26:19,367: ERROR: main: 'ModelTrainerConfig' object has no attribute 'train']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+AttributeError: 'ModelTrainerConfig' object has no attribute 'train'
+[2024-08-21 19:30:37,453: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:30:40,465: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:30:40,477: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:30:40,491: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:30:40,496: INFO: common: created directory at: artifacts]
+[2024-08-21 19:30:40,497: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:30:40,497: ERROR: main: 'ModelTrainerConfig' object has no attribute 'train']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+AttributeError: 'ModelTrainerConfig' object has no attribute 'train'
+[2024-08-21 19:34:54,469: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:34:56,115: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:34:56,120: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:34:56,127: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:34:56,130: INFO: common: created directory at: artifacts]
+[2024-08-21 19:34:56,131: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:43:34,126: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 25, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 131, in __init__
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\training_args.py", line 1585, in __post_init__
+    if self.save_strategy == IntervalStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2024-08-21 19:48:44,942: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:48:47,434: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:48:47,450: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:48:47,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:48:47,471: INFO: common: created directory at: artifacts]
+[2024-08-21 19:48:47,472: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:49:15,482: ERROR: main: invalid literal for int() with base 10: '1e6']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 29, in train
+    evaluation_strategy = self.config.evaluation_strategy, eval_steps = self.config.eval_steps, save_steps = int(self.config.save_steps),
+ValueError: invalid literal for int() with base 10: '1e6'
+[2024-08-21 19:51:36,130: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:51:37,723: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:51:37,728: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:51:37,733: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:51:37,736: INFO: common: created directory at: artifacts]
+[2024-08-21 19:51:37,737: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:52:04,954: ERROR: main: '>' not supported between instances of 'str' and 'int']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 26, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 131, in __init__
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\training_args.py", line 1585, in __post_init__
+    if self.save_strategy == IntervalStrategy.STEPS and self.save_steps > 1:
+TypeError: '>' not supported between instances of 'str' and 'int'
+[2024-08-21 19:54:36,242: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:54:37,925: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:54:37,934: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:54:37,941: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:54:37,943: INFO: common: created directory at: artifacts]
+[2024-08-21 19:54:37,944: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:55:06,376: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 26, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 131, in __init__
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\training_args.py", line 1730, in __post_init__
+    self.device
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\training_args.py", line 2227, in device
+    return self._setup_devices
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\utils\generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\training_args.py", line 2103, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2024-08-21 19:57:58,406: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-21 19:58:00,358: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-21 19:58:00,363: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-21 19:58:00,369: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-21 19:58:00,372: INFO: common: created directory at: artifacts]
+[2024-08-21 19:58:00,372: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-21 19:58:30,381: ERROR: main: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [dialogue, summary, id]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1967, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 892, in get_train_dataloader
+    train_dataset = self._remove_unused_columns(train_dataset, description="training")
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 820, in _remove_unused_columns
+    raise ValueError(
+ValueError: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [dialogue, summary, id]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.
+[2024-08-22 19:28:28,936: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:28:32,185: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:28:32,200: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:28:32,214: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:28:32,218: INFO: common: created directory at: artifacts]
+[2024-08-22 19:28:32,218: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:29:07,536: ERROR: main: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [dialogue, id, summary]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1967, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 892, in get_train_dataloader
+    train_dataset = self._remove_unused_columns(train_dataset, description="training")
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 820, in _remove_unused_columns
+    raise ValueError(
+ValueError: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [dialogue, id, summary]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.
+[2024-08-22 19:30:29,698: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:30:31,878: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:30:31,884: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:30:31,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:30:31,892: INFO: common: created directory at: artifacts]
+[2024-08-22 19:30:31,893: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:30:59,250: ERROR: main: __init__() got an unexpected keyword argument 'remove_unused_columns']
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 35, in train
+    trainer = Trainer(model = model_pegasus, args = trainer_args,
+TypeError: __init__() got an unexpected keyword argument 'remove_unused_columns'
+[2024-08-22 19:32:16,024: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:32:18,318: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:32:18,323: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:32:18,328: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:32:18,332: INFO: common: created directory at: artifacts]
+[2024-08-22 19:32:18,333: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:32:46,010: ERROR: main: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "D:\Anaconda\envs\textS\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 598, in __call__
+    batch = pad_without_fast_tokenizer_warning(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\tokenization_utils_base.py", line 3479, in pad
+    raise ValueError(
+ValueError: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']
+[2024-08-22 19:35:21,009: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:35:23,418: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:35:23,423: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:35:23,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:35:23,432: INFO: common: created directory at: artifacts]
+[2024-08-22 19:35:23,433: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:35:48,168: ERROR: main: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [id, dialogue, summary]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1967, in _inner_training_loop
+    train_dataloader = self.get_train_dataloader()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 892, in get_train_dataloader
+    train_dataset = self._remove_unused_columns(train_dataset, description="training")
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 820, in _remove_unused_columns
+    raise ValueError(
+ValueError: No columns in the dataset match the model's forward method signature. The following columns have been ignored: [id, dialogue, summary]. Please check the dataset and model. You may need to set `remove_unused_columns=False` in `TrainingArguments`.
+[2024-08-22 19:36:39,131: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:36:41,128: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:36:41,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:36:41,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:36:41,156: INFO: common: created directory at: artifacts]
+[2024-08-22 19:36:41,158: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:37:08,097: ERROR: main: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "D:\Anaconda\envs\textS\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 598, in __call__
+    batch = pad_without_fast_tokenizer_warning(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\tokenization_utils_base.py", line 3479, in pad
+    raise ValueError(
+ValueError: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']
+[2024-08-22 19:46:28,222: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:46:30,405: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:46:30,410: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:46:30,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:46:30,417: INFO: common: created directory at: artifacts]
+[2024-08-22 19:46:30,418: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:47:04,505: ERROR: main: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "D:\Anaconda\envs\textS\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 598, in __call__
+    batch = pad_without_fast_tokenizer_warning(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\tokenization_utils_base.py", line 3479, in pad
+    raise ValueError(
+ValueError: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']
+[2024-08-22 19:51:16,612: INFO: config: PyTorch version 2.4.0 available.]
+[2024-08-22 19:51:18,886: INFO: main: >>>>>>>>>> stage Data Validation stage started <<<<<<<<<<]
+[2024-08-22 19:51:18,891: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:51:18,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:51:18,901: INFO: common: created directory at: artifacts]
+[2024-08-22 19:51:18,902: INFO: common: created directory at: artifacts/data_validation]
+[2024-08-22 19:51:18,905: INFO: main: >>>>>>>>> Stage Data Validation stage completed <<<<<<<
+
+x============x]
+[2024-08-22 19:51:18,906: INFO: main: >>>>>>>>>> stage Data Transformation stage started <<<<<<<<<<]
+[2024-08-22 19:51:18,911: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:51:18,915: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:51:18,917: INFO: common: created directory at: artifacts]
+[2024-08-22 19:51:18,918: INFO: common: created directory at: artifacts/data_transformation]
+[2024-08-22 19:51:21,659: INFO: main: >>>>>>>>> Stage Data Transformation stage completed <<<<<<<
+
+x============x]
+[2024-08-22 19:51:21,660: INFO: main: >>>>>>>>>> stage Model trainer stage started <<<<<<<<<<]
+[2024-08-22 19:51:21,664: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-08-22 19:51:21,667: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-08-22 19:51:21,670: INFO: common: created directory at: artifacts]
+[2024-08-22 19:51:21,671: INFO: common: created directory at: artifacts/model_trainer]
+[2024-08-22 19:51:48,095: ERROR: main: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']]
+Traceback (most recent call last):
+  File "D:\ML_Projects\Text_Summrizer\Text_Summarizer\main.py", line 51, in <module>
+    model_trainer.main()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\pipeline\stage_04_model_trainer.py", line 16, in main
+    model_trainer_config.train()
+  File "d:\ml_projects\text_summrizer\text_summarizer\src\textSummarizer\components\model_trainer.py", line 40, in train
+    trainer.train()
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 1938, in train
+    return inner_training_loop(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\trainer.py", line 2236, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "D:\Anaconda\envs\textS\lib\site-packages\accelerate\data_loader.py", line 454, in __iter__
+    current_batch = next(dataloader_iter)
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "D:\Anaconda\envs\textS\lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 598, in __call__
+    batch = pad_without_fast_tokenizer_warning(
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\data\data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "D:\Anaconda\envs\textS\lib\site-packages\transformers\tokenization_utils_base.py", line 3479, in pad
+    raise ValueError(
+ValueError: You should supply an encoding or a list of encodings to this method that includes input_ids, but you provided ['id', 'dialogue', 'summary']
