@@ -23,17 +23,22 @@ https://github.com/Arunmaheshwari/Text_Summarizer.git
 <h4>STEP 01- Create a conda environment after opening the repository</h4>
 conda create -n summary python=3.8 -y
 conda activate summary
+
 <h4>STEP 02- install the requirements</h4>
 pip install -r requirements.txt
 # Finally run the following command
+
 python app.py
+
 Now,
 
 open up you local host and port
+
 Author: Krish Naik
 Data Scientist
 Email: krishnaik06@gmail.com
-AWS-CICD-Deployment-with-Github-Actions
+
+<h2>AWS-CICD-Deployment-with-Github-Actions</h2>
 <h2>1. Login to AWS console.</h2>
 <h2>2. Create IAM user for deployment</h2>
 #with specific access
