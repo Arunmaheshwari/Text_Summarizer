@@ -15,15 +15,15 @@
 
 
 
-How to run?
-STEPS:
+# How to run?
+<h4>STEPS:</h4>
 Clone the repository
 
 https://github.com/Arunmaheshwari/Text_Summarizer.git
-STEP 01- Create a conda environment after opening the repository
+<h4>STEP 01- Create a conda environment after opening the repository</h4>
 conda create -n summary python=3.8 -y
 conda activate summary
-STEP 02- install the requirements
+<h4>STEP 02- install the requirements</h4>
 pip install -r requirements.txt
 # Finally run the following command
 python app.py
