@@ -19,35 +19,48 @@
 <h4>STEPS:</h4>
 Clone the repository
 
-<button onclick="copyText()">https://github.com/Arunmaheshwari/Text_Summarizer.git</button>
+```bash
+https://github.com/Arunmaheshwari/Text_Summarizer.git
+```
 <h4>STEP 01- Create a conda environment after opening the repository</h4>
 
-<button onclick="copyText()">conda create -n summary python=3.8 -y</button>
+```bash
+conda create -n summary python=3.8 -y
+```
 
-<button onclick="copyText()">conda activate summary</button>
+```bash
+conda activate summary
+```
 
 <h4>STEP 02- install the requirements</h4>
 
-<button onclick="copyText()">pip install -r requirements.txt</button>
+```bash
+pip install -r requirements.txt
+```
 
-<button onclick="copyText()"># Finally run the following command
+# Finally run the following command
 
-python app.py</button>
+```bash
+python app.py
+```
 
 Now,
+```bash
+open up you local host and port
+```
 
-<button onclick="copyText()">open up you local host and port</button>
-
-<button onclick="copyText()">Author: Krish Naik
-
-Data Scientist
-
-Email: krishnaik06@gmail.com</button>
+```bash
+Author: Arun Maheshwari
+Student
+Email: maheshwariarun940@gmail.com
+```
 
 <h2>AWS-CICD-Deployment-with-Github-Actions</h2>
 <h2>1. Login to AWS console.</h2>
 <h2>2. Create IAM user for deployment</h2>
-<button onclick="copyText()">#with specific access
+
+```bash
+#with specific access
 
 1. EC2 access : It is virtual machine
 
@@ -70,12 +83,19 @@ Email: krishnaik06@gmail.com</button>
 
 1. AmazonEC2ContainerRegistryFullAccess
 
-2. AmazonEC2FullAccess</button>
+2. AmazonEC2FullAccess
+```
 <h2>3. Create ECR repo to store/save docker image</h2>
-<button onclick="copyText()">- Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s</button>
+
+```bash
+- Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/text-s
+```
+
 <h2>4. Create EC2 machine (Ubuntu)</h2>
 <h2>5. Open EC2 and Install docker in EC2 Machine:</h2>
-<button onclick="copyText()">#optinal
+
+```bash
+#optinal
 
 sudo apt-get update -y
 
@@ -89,11 +109,19 @@ sudo sh get-docker.sh
 
 sudo usermod -aG docker ubuntu
 
-newgrp docker</button>
+newgrp docker
+```
+
 <h2>6. Configure EC2 as self-hosted runner:</h2>
-<button onclick="copyText()">setting>actions>runner>new self hosted runner> choose os> then run command one by one</button>
+
+```bash
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
+```
+
 <h2>7. Setup github secrets:</h2>
-<button onclick="copyText()">AWS_ACCESS_KEY_ID=
+
+```bash
+AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
@@ -101,4 +129,5 @@ AWS_REGION = us-east-1
 
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-ECR_REPOSITORY_NAME = simple-app</button>
+ECR_REPOSITORY_NAME = simple-app
+```
